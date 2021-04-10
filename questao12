@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class questao_12 {
+
+	public static void main(String[] args) {
+		
+    // Escreva um algoritmo que retorne o resto da divisão;
+		
+		System.out.printf("Digite um número:");
+		Scanner div= new Scanner(System.in);
+		int divA= div.nextInt();
+		System.out.printf("Digite o segundo número:");
+		int divB= div.nextInt();
+		int divt= divA % divB;
+		System.out.printf("O resto da divisão de " + divA);
+		System.out.println(" e " + divB + " é " + divt );
+	
+  div.close();
+	
+  }
+
+}
