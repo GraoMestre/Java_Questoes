@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class questao_5 {
+
+	public static void main(String[] args) {
+		/*Crie um algoritmo que receba e apresente os
+		seguintes dados: Nome, cpf, sexo, idade
+	  Formatação da saída: A aluno <nome> com
+		cpf <cpf> do sexo <sexo> tem <idade> anos;*/
+	    
+      System.out.printf("Digite seu nome:");
+		Scanner enter= new Scanner (System.in);
+		String name= enter.nextLine();
+		System.out.printf("Digite seu CPF:");
+		String cpf= enter.nextLine();
+		System.out.printf("Digite seu sexo:");
+		String sex= enter.nextLine();
+		System.out.printf("Digite sua idade:");
+		byte age= enter.nextByte();
+		System.out.println("");
+		System.out.printf("O aluno " + name + " com cpf " + cpf);
+		System.out.printf( " de sexo " + sex + " tem idade de " + age );
+	}
+
+}
