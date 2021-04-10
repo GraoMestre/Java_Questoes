@@ -2,6 +2,7 @@ public class questao_2 {
 
 	public static void main(String[] args) {
 		//crie um algoritmo que receba nome,cpf sexo e idade do aluno
+		
 		double cpf= 134.011;
 		String cpff= ".121-01";
 		String aluno= "João";
