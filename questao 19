@@ -1,0 +1,34 @@
+public class retangulo {
+	double largura,perimetroA;
+	double altura, areaA;
+	
+	void area() {
+		areaA= largura*altura;
+		System.out.println("Área= " + areaA);
+	}
+	
+	void perimetro(){
+		perimetroA= (2*largura) + (2*altura);
+		System.out.println("Perimetro= " + perimetroA);
+	}
+	
+}
+
+//=============================
+
+/*public class questao19 {
+
+	public static void main(String[] args) {
+		retangulo rt = new retangulo();
+		
+		rt.altura= 10;
+		rt.largura= 15;
+		
+		rt.area();
+		rt.perimetro();
+		
+		
+	}
+
+	 
+}*/
