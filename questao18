@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class questao_18 {
+
+	public static void main(String[] args) {
+	
+		/* Faça um algoritmo que recebe a idade e
+       retorne se a pessoa tá no grupo de
+	   risco(acima de 40 anos);*/
+	
+		Scanner year = new Scanner (System.in);
+	    System.out.printf("Digite sua idade:");
+	    byte id = year.nextByte();
+	    String yearA = (id < 40)? "Você não esta no grupo de risco" : "Você esta no grupo de risco";
+	    System.out.println(yearA);
+	
+year.close();
+	
+	}
+
+}
