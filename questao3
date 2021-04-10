@@ -1,0 +1,17 @@
+public class questao_3 {
+
+	public static void main(String[] args) {
+		
+    // Crie um algoritmo que apresente os seguintes dados:
+		//Nome, endereço, produto;
+		//Formatação de saída: O cliente <nome> solicitou o
+		//produto <produto> para o endereço <endereço>
+		
+    String name= "Jhon";
+		byte address= 54;
+		char product= 'A';
+		System.out.println("O cliente " + name + " Solicitou o produto " + product
+				+ " para o endereço " + address + "º.");
+	}
+
+}
