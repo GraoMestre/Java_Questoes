@@ -20,6 +20,8 @@ public class questao_5 {
 		System.out.println("");
 		System.out.printf("O aluno " + name + " com cpf " + cpf);
 		System.out.printf( " de sexo " + sex + " tem idade de " + age );
+	
+	enter.close()	
 	}
 
 }
