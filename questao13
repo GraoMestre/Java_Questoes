@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class questao_13 {
+
+	public static void main(String[] args) {
+		
+		// calcular duas notas e dizer a média
+		
+		Scanner nota= new Scanner(System.in);
+		System.out.printf("Digite seu nome:");
+		String aluno= nota.nextLine();
+		System.out.printf("Digite a primeira nota:");
+		int not1= nota.nextInt();
+		System.out.printf("Digite a segunta nota:");
+		int not2= nota.nextInt();
+		double media= (not1 + not2)/2;
+		System.out.println("O aluno " + aluno + " obteve a média: " + media);
+	
+	
+	}
+
+}
