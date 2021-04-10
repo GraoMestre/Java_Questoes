@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class questao_10 {
+
+	public static void main(String[] args) {
+	
+		// Escreva um algoritmo que retorne a multiplicação;
+		
+		System.out.printf("Digite um número:");
+		Scanner mut= new Scanner(System.in);
+		int mutA= mut.nextInt();
+		System.out.printf("Digite o segundo número:");
+		int mutB= mut.nextInt();
+		int mult= mutA * mutB;
+		System.out.printf("Multiplicação de " + mutA);
+		System.out.println(" e " + mutB + " é " + mult );
+	
+	mut.close();
+	}
+
+}
