@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class questao_6 {
+	
+	public static void main(String[] args) {
+		
+    /*Crie um algoritmo que receba e apresente os
+		seguintes dados: Nome, endereço, produto;
+ 		Formatação de saída: O cliente <nome> solicitou o
+ 		produto <produto> para o endereço <endereço>*/
+		
+		System.out.printf("Digite seu nome:");
+		java.util.Scanner enter = new Scanner(System.in);
+		String name= enter.nextLine();
+		System.out.printf("Digite o nome da sua rua:");
+		String street= enter.nextLine();
+		System.out.printf("Digite o número da sua residência:");
+		byte number= enter.nextByte();
+		System.out.printf("Digite o produto desejado:");
+		String product= enter.next();
+		System.out.println("\n------------------------------");
+		System.out.println("");
+		System.out.println("Informações:.");
+		System.out.printf("O cliente " + name + " solicitou o produto " + product + " para o endereço ");
+	    System.out.println(street + " " + number + "º");
+		enter.close();
+	}
+}
