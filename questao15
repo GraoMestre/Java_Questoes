@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class questao_15 {
+
+	public static void main(String[] args) {
+		
+		// faça um algoritmo que receba o salário e retorne a regra da educação financeira
+		//50%-30%-20%
+		
+		System.out.printf("Digite seu salário:");
+		Scanner wage= new Scanner(System.in);
+		double wag= wage.nextDouble(); 
+		double need= (30 * wag) / 100;
+		double wish= (20 * wag ) / 100;
+		double pay=  (50 * wag) / 100;
+		System.out.println("O seu salário é de " + wag + " você deve usar " + need + " para suas necessidades.");
+		System.out.println("Deve usar " + wish + " para os seus desejos pessoais e " + pay + " para investimentos ou dívidas");
+
+ wage.close();
+	
+	}
+
+}
