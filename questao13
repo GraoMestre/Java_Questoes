@@ -16,6 +16,7 @@ public class questao_13 {
 		double media= (not1 + not2)/2;
 		System.out.println("O aluno " + aluno + " obteve a média: " + media);
 	
+	nota.close();
 	
 	}
 
