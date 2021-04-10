@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class questao_16 {
+
+	public static void main(String[] args) {
+		
+    /* Faça um algoritmo que recebe a média e
+		 retorna se o aluno tá aprovado ou reprovado;
+		 Formatação de saída: O aluno foi <resposta>*/
+		
+		Scanner nt= new Scanner (System.in);
+		System.out.printf("Digite a primeira nota:");
+		double nt1= nt.nextDouble();
+		System.out.printf("Digite a segunda nota:");
+		double nt2= nt.nextDouble();
+		System.out.printf("Digite a terceira nota:");
+		double nt3= nt.nextDouble();
+		double media= (nt1+nt2+nt3)/3;
+	    String medias= (media>=7 && media <= 10)?  "Aprovado" : "Reprovado";
+	    System.out.println("O aluno esta " + medias);
+	    
+	nt.close();
+		
+		}
+		
+	}
