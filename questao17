@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class questao_17 {
+
+	public static void main(String[] args) {
+		
+		/*Faça um algoritmo que recebe a temperatura
+		de dois dias e retorna se vai chover ou não
+		seguindo a tabela*/
+		
+		Scanner temp= new Scanner (System.in);
+		System.out.printf("Qual a temperatura do dia?:");
+		byte te1= temp.nextByte();
+		System.out.printf("Qual a temperatura do 2º dia?:");
+		byte te2= temp.nextByte();
+		if (te1 <20 && te2<20) {
+			System.out.println("Vai Chover!");
+		}
+		else if(te1<20 && te2>20) {
+			System.out.println("Não Vai Chover!");
+		}
+		else if(te1>20 && te2<20) {
+			System.out.println("Vai Chover!");
+		}
+		else {
+			System.out.printf("Vai Chover!");
+		}
+	
+	temp.close();
+		
+	}
+
+}
