@@ -1,0 +1,16 @@
+package Programas;
+
+public class questao_1 {
+	public static void main(String[] args) {
+		double conta= 10.000;
+		int nconta= 126;
+		String nome= "João Gabriel";
+		
+		System.out.println("------Conta Bancária-----");
+		System.out.println("Nome: " + nome);
+		System.out.println("Número da conta: " + nconta);
+		System.out.println("Saldo: " + conta);
+		System.out.println("-------------------------");
+		System.out.println("O cliente " + nome + " da conta " + nconta + " tem o saldo de " + conta );
+	}
+}
