@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class questao_14 {
+
+	public static void main(String[] args) {
+		
+		// calcular três salários de uma empresa e dizer a média
+		
+				System.out.printf("Digite o primeiro salário:");
+				Scanner emp= new Scanner(System.in);
+				double salarioA= emp.nextDouble();
+				System.out.printf("Digite o segundo salário:");
+				double salarioB= emp.nextDouble();
+				System.out.printf("Digite o terceiro salário:");
+				double salarioC= emp.nextDouble();
+				double media= (salarioA + salarioB + salarioC)/3;
+				System.out.println("A média da empresa é de " + media);
+				
+			emp.close();
+
+	}
+
+}
