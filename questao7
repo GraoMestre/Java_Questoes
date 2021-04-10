@@ -1,0 +1,27 @@
+public class questao_7 {
+
+	public static void main(String[] args) {
+		
+		// crie um algoritmo que receba nome, sexo, estado civil, salário, idade;
+		
+		System.out.printf("Digite seu nome:");
+		Scanner enter= new Scanner (System.in);
+		String name= enter.nextLine();
+		System.out.printf("Digite seu estado civil:");
+		String status= enter.nextLine();
+		System.out.printf("Digite seu sexo:");
+		String sex= enter.nextLine();
+		System.out.printf("Digite sua idade:");
+		byte age= enter.nextByte();
+		System.out.printf("Digite seu salário:");
+		double wage= enter.nextDouble();
+		System.out.println("------------------------");
+		System.out.println("Informações:");
+		System.out.printf("Funcionário " + name + " do sexo " + sex + " e estado civil " + status + " recebe");
+		System.out.println("Recebe " + wage + "$ De salário");
+	
+  enter.close();
+		
+	}
+
+}
