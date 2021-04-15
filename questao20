@@ -1,0 +1,51 @@
+/*public class carro {
+
+		int vel_inicial;
+		int off;
+		boolean ignicao;
+		
+		void partida() {
+			if (ignicao == true) {
+				System.out.println("Carro Ligado");
+		}
+			else {
+				vel_inicial= 0;
+				System.out.println("Carro Desligado\nVelocidade atual:" + vel_inicial ); 
+			
+			}
+		}	
+		
+		void vel(int acelerar){
+			vel_inicial+= acelerar;
+			System.out.println("Velocidade: " + vel_inicial+ "km");
+		}
+		
+		void frear(int frear) {
+			vel_inicial-= frear;
+			System.out.println("freiando! \nVelocidade Atual: " + vel_inicial +"km");
+		}
+		
+	
+				
+}*/
+
+public class questao20 {
+
+	public static void main(String[] args) {
+		carro c1= new carro();
+		c1.ignicao= false;
+		c1.vel_inicial= 10;
+		
+		c1.partida();
+		
+		System.out.println("\n");
+		
+		carro c2= new carro();
+		c2.ignicao= true;
+		c2.vel_inicial= 25;
+		
+		c2.vel(15);
+		c2.frear(5);
+	}
+
+}
