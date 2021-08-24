@@ -1,2 +1,2 @@
 # Java_Questoes
-Pequenos Projetos em java para ttrabalhar lógica da programação.
+Pequenos Projetos em Java Para Trabalhar Lógica da Programação.
